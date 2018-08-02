@@ -5,7 +5,7 @@ applications:
   - route: timesheets-pal-cat.apps.evans.pal.pivotal.io
   memory: 1G
   instances: 1
-  env:
-    REGISTRATION_SERVER_ENDPOINT: http://registration-pal-cat.apps.evans.pal.pivotal.io
   services:
   - tracker-timesheets-database
+  - tracker-service-registry
+

@@ -16,3 +16,4 @@ public class ProjectClient {
         return restOperations.getForObject(endpoint + "/projects/" + projectId, ProjectInfo.class);
     }
 }
+
